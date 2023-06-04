@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="quiz.css"/>
+</head>
+<body>
+<div class="main">
+  <div id="box"> 
+    <h2 id="quesbox">This is the Questions ask in <span id="ssc"> SSC </span>paper</h2>
+    <div class="row" >
+      <input class="options" type="radio" value="a" id="option1" name="option"> 
+      <label for="option1"> option 1</label>
+    </div>
+    <div class="row">
+      <input class="options" type="radio" value="b" id="option2" name="option">
+      <label for="option2"> option 2</label>
+    </div>
+    <div class="row">
+      <input class="options" type="radio" value="c" id="option3" name="option">
+      <label for="option3"> option 3</label>
+    </div>
+    <div class="row">
+      <input class="options" type="radio" value="d" id="option4" name="option">
+      <label for="option4"> option 4</label>
+    </div>
+    <button class="btn" onclick="submitquiz()">
+      Submit
+      <div class="line">
+
+      </div>
+    </button>
+  </div>
+</div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
